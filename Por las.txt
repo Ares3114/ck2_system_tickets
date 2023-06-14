@@ -1,0 +1,10 @@
+#sidebar{
+    grid-area: sidebar;
+    height: 100%;
+    background-color:rgba(30, 30, 30, 0.907);
+    color: rgb(255,255,255);
+    overflow-y: auto;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5;
+
+}
