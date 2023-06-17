@@ -4,7 +4,8 @@ body{
     box-sizing: border-box;
     background-color: rgb(247,246,252);
     color:rgb(70,71,81);
-    font-family:"Open Sans", sans-serif;
+    font-family: 'Krub', sans-serif;
+
 }
 .material-icons-outlined{
     vertical-align: middle;
