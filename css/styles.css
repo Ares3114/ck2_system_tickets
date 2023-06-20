@@ -3,8 +3,8 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(247,246,252);
-    color:rgb(70,71,81);
-    font-family: 'Krub', sans-serif;
+    color:rgb(46, 43, 43);
+    font-family: 'Poppins', sans-serif;
 
 }
 .material-icons-outlined{
@@ -12,33 +12,7 @@ body{
     line-height: 1px;
     font-size: 30px;
 }
-.text-secondary{
-    color: rgb(70,71,81);
-}
-.tex-blue{
-    color: rgb(29,38,154);
-}
-.background-blue{
-    background-color: rgb(29,38,154);
-}
-.text-red{
-    color:rgb(213,0,0);
-}
-.background-red{
-    background-color: rgb(213,0,0);
-}
-.text-green{
-    color:rgb(46,125,50);
-}
-.background-green{
-    background-color: rgb(46,125,50);
-}
-.text-orange{
-    color:rgb(255,111,0);
-}
-.background-orange{
-    background-color: rgb(255,111,0);
-}
+
 .grid-container{
     display: grid;
     grid-template-columns: 260px 1fr 1fr 1fr;
