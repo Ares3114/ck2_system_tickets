@@ -11,10 +11,11 @@
   
   .main-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    margin: 20px 0;
+    margin: 20px 0; 
   }
+  
   
   .card {
     display: flex;
@@ -42,3 +43,17 @@
   .card-inner > span {
     font-size: 50px;
   }
+
+  .add-pc-button {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-pc-button:hover {
+    background-color: #2980b9;
+  }
+  
